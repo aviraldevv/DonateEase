@@ -1,0 +1,96 @@
+
+/* navbar */
+.nav-container{
+    height: 20vh;
+}
+
+
+/* hero */
+.main-section{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 7px 14px -5px rgba(0,0,0,0.15);
+    box-shadow: 2px 1px 22px -4px rgba(0,0,0,0.25);
+    /* background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png"); */
+}
+
+.main-section .button-card{
+    /* border:2px solid black; */
+    height: auto;
+    width: 300px;
+    /* box-shadow: 1px 1px 2px 1px lightgray; */
+    box-shadow: 0 7px 14px -5px rgba(0,0,0,0.15);
+    outline: 2px solid rgba(86,112,145,0.1);
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+.main-section .button-card h1{
+    font-size:1.5rem;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* color: white; */
+}
+
+.main-section .button-card:hover{
+    /* border:2px solid black; */
+   transform: scale(1.05);
+   transition: transform 0.3s ease-in-out;
+}
+
+.nav-container{
+    background: transparent;
+}
+
+.bg-light{
+    background:transparent !important;
+}
+
+.navbar{
+    box-shadow: none;
+}
+
+.navbar .router-link-exact-active {
+    /* border-bottom: 3px solid #0066f9; */
+    border-bottom: none;
+}
+
+.nav-item{
+    height:41px;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px solid #0066f9;
+}
+
+.navbar-brand{
+    margin-right:20px;
+}
+.company-name{
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav{
+    margin: auto!important;
+}
+
+.nav-item a{
+    margin: 0 10px!important;
+}
+
+.d-none{
+    margin: 0!important;
+}

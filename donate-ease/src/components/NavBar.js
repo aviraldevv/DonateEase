@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink as RouterNavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./styles.css";
 
 import {
   Collapse,
@@ -42,6 +43,7 @@ const NavBar = () => {
       <Navbar color="light" light expand="md" container={false}>
         <Container>
           <NavbarBrand className="logo" />
+          <h1 className="company-name">DonateEase</h1>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -55,6 +57,40 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </NavItem>
+
+              <NavItem>
+                <NavLink
+                  tag={RouterNavLink}
+                  to="/"
+                  exact
+                  activeClassName="router-link-exact-active"
+                >
+                  About
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink
+                  tag={RouterNavLink}
+                  to="/"
+                  exact
+                  activeClassName="router-link-exact-active"
+                >
+                  Services
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink
+                  tag={RouterNavLink}
+                  to="/"
+                  exact
+                  activeClassName="router-link-exact-active"
+                >
+                  Contact
+                </NavLink>
+              </NavItem>
+
               {isAuthenticated && (
                 <NavItem>
                   <NavLink
@@ -70,7 +106,7 @@ const NavBar = () => {
             </Nav>
             <Nav className="d-none d-md-block" navbar>
               {!isAuthenticated && (
-                <NavItem>
+                <NavItem>            
                   <Button
                     id="qsLoginBtn"
                     color="primary"
