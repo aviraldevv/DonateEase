@@ -33,3 +33,8 @@
 .result-block-container .result-block {
   opacity: 1;
 }
+
+.app-bg{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
