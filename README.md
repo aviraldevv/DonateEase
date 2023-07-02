@@ -1,8 +1,10 @@
 # DonateEase
 
-## Minimalist Crowdfunding Web App
+## Track 1 - Full Stack Web Application
 
-### Steps to setup your development server:
+### Minimalist Crowdfunding Web App
+
+#### Steps to setup your development server:
 
 - `git clone` website url
   
