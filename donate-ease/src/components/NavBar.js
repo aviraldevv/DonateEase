@@ -54,7 +54,7 @@ const NavBar = () => {
                   exact
                   activeClassName="router-link-exact-active"
                 >
-                  Home
+                  <span className="home">Home</span>
                 </NavLink>
               </NavItem>
 

@@ -94,3 +94,256 @@
 .d-none{
     margin: 0!important;
 }
+
+.main-heading{
+    font-size: 2rem;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.main-heading::after{
+    content: "";
+    width:20%;
+    height:3px;
+    text-align: center;
+    background-color: black;
+    display: block;
+    margin: auto;
+    margin-top:11px ;
+}
+
+.Cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:100%;
+    column-gap: 30px;
+    overflow: hidden;
+}
+
+.card{
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px ;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+.card-img{
+    width:100%;
+    height:auto;
+}
+
+.card-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px 10px 0 0 ;
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-description .heading{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    font-weight: 600;
+}
+
+.card-description .person-name{
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-overflow: ellipsis;
+    padding: 20px;
+    margin: auto;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-description .fund-raised{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-overflow: ellipsis;
+    padding: 20px;
+    margin: auto;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-description .buttons-card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    width:100%;
+}
+
+.buttons-card button{
+    display: block;
+    width: 45%;
+    /* height: 40%; */
+    font-size: 1.1rem;
+    background: transparent;
+    border: 1px solid black;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+.buttons-card button:hover{
+    transform: scale(1.05);
+    background: black;
+    color:white;
+    transition: all 0.3s ease-out;
+}
+
+
+.donate-relative{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.form{
+    width:80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0;
+    position: relative;
+}
+
+.form input{
+    width:70%;
+    padding:10px 20px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.form i{
+    position:absolute;
+    right:15%;
+    padding-right:12px;
+}
+
+.details{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+    padding-bottom: 10px;
+}
+
+.details input{
+    width:36.5%;
+}
+
+.pay-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 20px;
+}
+
+.currency{
+    width: 26% !important;;
+    border-radius: 10px 0 0 10px !important;
+}
+
+.amount{
+    width: 50% !important;
+    border-left: 1px solid black;
+    border-radius: 0 10px 10px 0px !important;
+}
+
+.payment-options{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.payment-options .container1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-options .container2{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.make-payment{
+    width:70%;
+    display: block;
+    margin: auto;
+    padding: 15px 30px;
+    background: linear-gradient(to right,rgb(85, 154, 177),rgb(79, 79, 210),rgb(33, 33, 181),rgb(6, 6, 163));
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.whatsapp{
+    width:70%;
+    display: block;
+    margin: auto;
+    padding: 15px 30px;
+    background: #25D366;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+}
+
