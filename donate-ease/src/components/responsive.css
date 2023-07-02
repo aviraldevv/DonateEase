@@ -245,6 +245,13 @@
 @media screen and (max-width:780.5px) {
 
     .align-container2{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:560.5px) {
+
+    .align-container2{
         width:100%;
     }
 }
