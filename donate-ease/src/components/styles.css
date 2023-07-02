@@ -129,22 +129,222 @@ footer {
     justify-content: flex-end;
 }
 
-/* GetFunds */
+/* ----------------------------------------------------------GetFunds styling-------------------------------------*/
 
 .getfunds .card{
-    height:100vh;
+    height:auto;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
+    width: 60%;
     margin: auto;
     box-shadow: 0 7px 14px -5px rgba(0,0,0,0.15);
     box-shadow: 2px 1px 22px -4px rgba(0,0,0,0.25);
+    margin-bottom: 2%;
 }
 
-/*  */
+.card .align-card{
+    padding: 20px;
+    width:100%;
+    padding-bottom: 7%;
+}
+
+.nice-form-group{
+    width: 85%;
+    margin: 10px auto;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.nice-form-group label h2{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: 0;
+}
+
+.nice-form-group label h2::before{
+    content: "*";
+    color:red;
+    position: absolute;
+    right: -13px;
+
+}
+
+.nice-form-group input{
+    display: block;
+    width:100%;
+    /* margin: auto; */
+    padding: 14px;
+    /* opacity: 0.1; */
+    /* color: black; */
+    background-color: whitesmoke;
+    border: 1px solid #80808052;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px -1px #726d6d8f;
+}
+
+.nice-form-group input::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+}
+
+.nice-form-group textarea{
+    display: block;
+    width:100%;
+    /* margin: auto; */
+    padding: 14px;
+    /* opacity: 0.1; */
+    /* color: black; */
+    background-color: whitesmoke;
+    border: 1px solid #80808052;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px -1px #726d6d8f;
+}
+
+.proof{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.proof h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.proof button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background: whitesmoke;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.proof button:hover{
+    background-color: rgba(69, 69, 69, 0.838);
+    color:rgba(255, 255, 255, 0.904);
+    transition: all 0.1s ease-in-out;
+}
+
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 30px;
+}
+
+.check-container p{
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    vertical-align: middle;
+    display: contents;
+}
+  
+  /* Hide the browser's default checkbox */
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    background-color: rgb(178, 178, 178);
+}
+  
+  /* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+  
+  /* On mouse-over, add a grey background color */
+.check-container:hover input ~ .checkmark {
+    background-color: rgba(173, 173, 173, 0.904);
+}
+  
+  /* When the checkbox is checked, add a blue background */
+.check-container input:checked ~ .checkmark {
+    background-color: rgba(69, 69, 69, 0.838);
+}
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+  /* Show the checkmark when checked */
+.check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the checkmark/indicator */
+.check-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.bank-details input{
+    margin: 15px 0;
+}
+
+.fundraiser
+{
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    color: white;
+    background:linear-gradient(to right,#01bfbcee,#02a3a0e6,#057887,#04759a);
+    box-shadow: 0 4px 8px #01bfbd4d;
+    border: none;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.fundraiser:focus{
+    border: none;
+    outline: none;
+}
+
+.fundraiser:hover{
+    transform: scale(1.03);
+    opacity: 1;
+    transition: all 0.24s ease-in-out;
+}
+
+/*--------------- ----------------------Donate page styling-------------------------------------------*/
 .main-heading{
     font-size: 2rem;
     margin: auto;
@@ -269,6 +469,7 @@ footer {
     transition: all 0.3s ease-out;
 }
 
+/* --------------------------------------Donate someone you know section--------------------------------------- */
 
 .donate-relative{
     padding: 20px;
@@ -339,7 +540,7 @@ footer {
 
 .amount{
     width: 50% !important;
-    border-left: 1px solid black;
+    border-left: 1px solid black !important;
     border-radius: 0 10px 10px 0px !important;
 }
 
@@ -362,6 +563,16 @@ footer {
     width:100%;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.container2 img{
+    position: absolute;
+    height:50px;
+    width:50px;
+    margin: auto;
+    top: 25%;
+    left: 27%;
 }
 
 
@@ -396,4 +607,7 @@ footer {
     outline: none;
     border-radius: 20px;
 }
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
 
