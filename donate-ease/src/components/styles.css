@@ -102,11 +102,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-bottom: 10vh;
+    align-items: center;
 }
 
 .content h2 {
     margin-bottom: 8vh;
 }
+
+.content .aboutus {
+    font-size: x-large;
+    width: 95%;
+    text-align: justify;
+}
+
+
 
 
 /* footer */
