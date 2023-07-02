@@ -55,6 +55,7 @@ function Donate(){
                         <button className="make-payment">Make Payment</button>
                     </div>
                     <div className="container2">
+                        <img src="./whatsapp.png" alt="" />
                         <button className="whatsapp">Whatsapp and pay</button>
                     </div>
                     

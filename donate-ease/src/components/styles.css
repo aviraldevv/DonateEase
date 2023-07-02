@@ -95,6 +95,8 @@
     margin: 0!important;
 }
 
+/* ---------------------------------------Cards section for fundraiser---------------------------------------- */
+
 .main-heading{
     font-size: 2rem;
     margin: auto;
@@ -219,6 +221,7 @@
     transition: all 0.3s ease-out;
 }
 
+/* --------------------------------------Donate someone you know section--------------------------------------- */
 
 .donate-relative{
     padding: 20px;
@@ -289,7 +292,7 @@
 
 .amount{
     width: 50% !important;
-    border-left: 1px solid black;
+    border-left: 1px solid black !important;
     border-radius: 0 10px 10px 0px !important;
 }
 
@@ -312,6 +315,16 @@
     width:100%;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.container2 img{
+    position: absolute;
+    height:50px;
+    width:50px;
+    margin: auto;
+    top: 25%;
+    left: 27%;
 }
 
 
@@ -346,4 +359,7 @@
     outline: none;
     border-radius: 20px;
 }
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
 
