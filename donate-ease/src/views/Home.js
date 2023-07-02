@@ -1,28 +1,33 @@
-import React,{ Fragment } from "react";
-import { useState } from "react";
+import React, { Fragment, useState } from 'react';
+import { useHistory } from 'react-router-dom'; // Import useHistory hook
 
-import Hero from "../components/Hero";
-import Content from "../components/Content";
-import Donate from "../components/Donate";
+import Hero from '../components/Hero';
+import Content from '../components/Content';
+import Donate from '../components/Donate';
 
-function Home(){
+function Home() {
+  const [isdonate, setdonate] = useState(false);
+  const history = useHistory(); // Access the history object
 
-  const [isdonate,setdonate]=useState(false);
-
-  function handledonatechange(){
-    // console.log("clicked");
-    setdonate((prevValue)=>{
+  function handledonatechange() {
+    setdonate(prevValue => {
       return !prevValue;
     });
+    history.push('/donate'); // Update the route to '/donate'
   }
 
-  // document.querySelector(".home").addEventListener("click",()=>{
-  //   setdonate(false);
-  // });
-
-  return(<Fragment>
-    {(isdonate)?<Donate/>:<div><Hero handlechange={handledonatechange}/><Content /></div>}
-  </Fragment>);
-};
+  return (
+    <Fragment>
+      {isdonate ? (
+        <Donate />
+      ) : (
+        <div>
+          <Hero handlechange={handledonatechange} />
+          <Content />
+        </div>
+      )}
+    </Fragment>
+  );
+}
 
 export default Home;
