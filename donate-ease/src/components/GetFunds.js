@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import { useHistory } from 'react-router-dom'; // Import useHistory hook
 import './styles.css';
+import "./responsive.css";
 import { useState } from 'react';
 
 const GetFunds = () => {
