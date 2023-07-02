@@ -5,6 +5,8 @@ import { Container } from "reactstrap";
 import Loading from "./components/Loading";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Donate from './components/Donate';
+import GetFunds from './components/GetFunds';
 import Home from "./views/Home";
 import Profile from "./views/Profile";
 import ExternalApi from "./views/ExternalApi";
@@ -38,6 +40,8 @@ const App = () => {
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/profile" component={Profile} />
+              <Route exact path="/donate" component={Donate} />
+              <Route path="/getfunds" component={GetFunds} />
               <Route path="/external-api" component={ExternalApi} />
             </Switch>
           </Container>

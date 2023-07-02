@@ -42,7 +42,7 @@ const NavBar = () => {
     <div className="nav-container">
       <Navbar color="light" light expand="md" container={false}>
         <Container>
-          <NavbarBrand className="logo" />
+          
           <h1 className="company-name">DonateEase</h1>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
