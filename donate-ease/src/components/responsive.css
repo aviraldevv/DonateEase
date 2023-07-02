@@ -1,0 +1,257 @@
+
+
+@media screen and (max-width:855px) {
+    .getfunds .card{
+        width:70%;
+    }
+
+    .main-heading{
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .getfunds .card{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .getfunds .card{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .getfunds .card{
+        width:90%;
+    }
+
+    .main-heading{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:580px){
+   .nice-form-group{
+    width:100%;
+   }
+}
+
+@media screen and (max-width:480px){
+    .getfunds .card{
+        width:100%;
+    }
+
+    .nice-form-group input {
+        padding: 9px;
+    }
+
+    .nice-form-group{
+        padding: 5px;
+    }
+}
+
+
+
+@media screen and (max-width: 767.98px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+        background-color: #ffffff;
+        background-image: url(https://www.transparenttextures.com/patterns/brushed-alum-dark.png);
+    }
+
+    .company-name{
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav:last-child {
+        background: transparent !important;
+        box-shadow: 0 4px 0 -3px #dbdde2bf !important;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .footer{
+        justify-content:center;
+    }
+
+    .company-name span{
+        display: block;
+    }
+
+    .main-heading{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    .check-container{
+        height: 51px;
+    }
+
+    .card .align-card{
+        padding: 20px 8px;
+    }
+
+    .main-heading{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:899.5px){
+
+    .Cards{
+        grid-template-columns: repeat(1,1fr);
+        width:70%;
+        margin:auto;
+    }
+
+    .card-description .heading{
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width:928px) {
+    
+} */
+
+@media screen and (max-width:850px) {
+    .form{
+        width:90%;
+    }
+
+    /* .form i{
+        right: 0%;
+    } */
+}
+
+
+@media screen and (max-width:587px) {
+    .Cards{
+        width:85%;
+    }
+
+    .form input{
+        width:80%;
+    }
+
+    .details input{
+        width:43.5%;
+    }
+}
+
+@media screen and (max-width:493px) {
+    .Cards{
+        width:95% !important;
+    }
+
+    .form input{
+        width:100%;
+    }
+
+    .details{
+        padding: 20px 0;
+    }
+
+    .details input{
+        width:49.5%;
+    }
+
+    .form i{
+        right: 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .whatsapp{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .make-payment{
+        font-size: 1.5rem;
+        width:80%;
+    }
+}
+
+@media screen and (max-width:553px) {
+    .whatsapp{
+        font-size: 1.5rem;
+        width:84%;
+    }
+
+    .make-payment{
+        font-size: 1.5rem;
+        width:84%;
+    }
+
+    .container2 img{
+        height: 40px;
+        width:40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .whatsapp{
+        font-size: 1.2rem;
+        width:84%;
+        padding: 11px 27px;
+    }
+
+    .make-payment{
+        font-size: 1.2rem;
+        width:84%;
+        padding: 11px 27px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form{
+        width:100%;
+    }
+
+    .whatsapp{
+        font-size: 1.2rem;
+        width:100%;
+        padding: 11px 27px;
+    }
+
+    .make-payment{
+        font-size: 1.2rem;
+        width:100%;
+        padding: 11px 27px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+
+    .align-container2{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:950.5px) {
+
+    .align-container2{
+        width:90%;
+    }
+}
+
+@media screen and (max-width:780.5px) {
+
+    .align-container2{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:560.5px) {
+
+    .align-container2{
+        width:100%;
+    }
+}
