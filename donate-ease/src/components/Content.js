@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import contentData from "../utils/contentData";
 import "./styles.css";
+import "./responsive.css";
 
 class Content extends Component {
   render() {

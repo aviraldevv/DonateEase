@@ -54,8 +54,12 @@ function Donate(){
                     </a>
                     </div>
                     <div className="container2">
-                        <img src="./whatsapp.png" alt="" />
-                        <button className="whatsapp">Whatsapp and pay</button>
+                        <button className="whatsapp">
+                            <div className="align-container2">
+                                <img src="./whatsapp.png" alt="" />
+                                <span>Whatsapp and pay</span>
+                            </div>
+                        </button>
                     </div>
                     
                 </div>              
