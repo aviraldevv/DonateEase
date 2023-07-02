@@ -95,8 +95,18 @@
     margin: 0!important;
 }
 
+/* content */
 
+.content {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
+.content h2 {
+    margin-bottom: 8vh;
+}
 
 
 /* footer */
@@ -107,4 +117,19 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+}
+
+/* GetFunds */
+
+.getfunds .card{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 7px 14px -5px rgba(0,0,0,0.15);
+    box-shadow: 2px 1px 22px -4px rgba(0,0,0,0.25);
 }
