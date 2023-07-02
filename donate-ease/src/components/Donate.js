@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./Card";
 import details from "./details";
 
+
+
 function Donate(){
 
     return (
@@ -37,7 +39,7 @@ function Donate(){
                     <input type="lName" placeholder="Last Name" />
                 </div>
                 <div className="details">
-                    <input type="email" placeholder="email Id" />
+                    <input type="email" placeholder="Email Id" />
                     <input type="mobile" placeholder="Mobile Number" />
                 </div>
                 <div className="details">
@@ -45,14 +47,11 @@ function Donate(){
                     <input type="Country" placeholder="Country"/>
                 </div>
 
-                <div className="pay-details">
-                    <input className="currency" type="State" placeholder="Select Currency" />
-                    <input className="amount" type="Country" placeholder="Enter Amount"/>
-                </div>  
-
                 <div className="payment-options">
                     <div className="container1">
-                        <button className="make-payment">Make Payment</button>
+                    <a href="https://buy.stripe.com/test_14k8zE9C60G9al24gg" target="_blank" rel="noopener noreferrer" className="make-payment">
+                    Make Payment
+                    </a>
                     </div>
                     <div className="container2">
                         <button className="whatsapp">Whatsapp and pay</button>
