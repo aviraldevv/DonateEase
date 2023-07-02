@@ -15,7 +15,10 @@ function Hero(props){
       </p> */}
 
       <div className="main-section">
-        <div className="button-card">
+        <div className="button-card" onClick={()=>{
+          // console.log("clicked1");
+          props.handlechangeFunds();
+        }}>
           <h1>Get Funds</h1>
         </div>
 

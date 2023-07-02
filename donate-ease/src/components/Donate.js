@@ -54,6 +54,7 @@ function Donate(){
                     </a>
                     </div>
                     <div className="container2">
+                        <img src="./whatsapp.png" alt="" />
                         <button className="whatsapp">Whatsapp and pay</button>
                     </div>
                     

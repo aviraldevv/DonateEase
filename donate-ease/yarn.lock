@@ -7944,10 +7944,17 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
 
+<<<<<<< HEAD
 "react-router-dom@^5.3":
   "integrity" "sha512-m4EqFMHv/Ih4kpcBCONHbkT68KoAeHN4p3lAGoNryfHi0dMy0kCzEZakiKRsvg5wHZ/JLrLW8o8KomWiz/qbYQ=="
   "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.3.4.tgz"
   "version" "5.3.4"
+=======
+react-router-dom@^5.3.4:
+  version "5.3.4"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.3.4.tgz"
+  integrity sha512-m4EqFMHv/Ih4kpcBCONHbkT68KoAeHN4p3lAGoNryfHi0dMy0kCzEZakiKRsvg5wHZ/JLrLW8o8KomWiz/qbYQ==
+>>>>>>> 762c517fd4b1fc2c70ba70116154c65b0aef7333
   dependencies:
     "@babel/runtime" "^7.12.13"
     "history" "^4.9.0"
