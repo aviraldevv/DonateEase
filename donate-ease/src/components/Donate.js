@@ -37,16 +37,16 @@ function Donate() {
           </div>
           <input type="text" placeholder="Selected User" readOnly />
           <div className="details">
-            <input type="fName" placeholder="First Name" />
-            <input type="lName" placeholder="Last Name" />
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
           </div>
           <div className="details">
             <input type="email" placeholder="Email Id" />
-            <input type="mobile" placeholder="Mobile Number" />
+            <input type="tel" placeholder="Mobile Number" />
           </div>
           <div className="details">
-            <input type="State" placeholder="State" />
-            <input type="Country" placeholder="Country" />
+            <input type="text" placeholder="State" />
+            <input type="text" placeholder="Country" />
           </div>
 
           <div className="payment-options">
@@ -62,10 +62,10 @@ function Donate() {
             </div>
             <div className="container2">
               <button className="whatsapp" onClick={handleWhatsAppPay}>
-              <div className="align-container2">
-                <img src="./whatsapp.png" alt="" />
-                <span>Whatsapp and Pay</span>
-              </div>
+                <div className="align-container2">
+                  <img src="./whatsapp.png" alt="" />
+                  <span>Whatsapp and Pay</span>
+                </div>
               </button>
             </div>
           </div>

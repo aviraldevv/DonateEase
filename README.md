@@ -4,6 +4,12 @@
 
 ### Minimalist Crowdfunding Web App
 
+#### Special Features -
+
+- Easy to use interface
+- Authentication powered by AuthO
+- Payments secured by Stripe
+
 #### Steps to setup your development server:
 
 - `git clone` website url
@@ -15,6 +21,8 @@
 - `npm install`
   
 - To start development server run: `npm start`
+
+
   
 
   
